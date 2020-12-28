@@ -7,7 +7,6 @@ namespace Exam215
     class Unit_voin_gigant : unit_abstract, IAttack
     {
         public int Damage { get; private set; }
-        public double Speed { get; private set; }
         public Unit_voin_gigant(string name, int xp, int damage)
         {
             Name = name;
