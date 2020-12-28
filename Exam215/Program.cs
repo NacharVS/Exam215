@@ -6,7 +6,8 @@ namespace Exam215
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Leave hope behind who enters here...");
+            main.RunStrategy();
+            Console.Read();
         }
     }
 }
