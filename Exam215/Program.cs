@@ -6,7 +6,12 @@ namespace Exam215
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Leave hope behind who enters here...///.");
+            Student Лёха = new Student("Максимов", "Алексей", 16, "Тачки", "Борщ");
+            Лёха.GetInfo();
+            Student Кирилл = new Student("Охотников", "Кирилл");
+            Кирилл.GetInfo();
+            Student Вася = new Student("Ильясов", "Вася", 15);
+            Вася.GetInfo();
         }
     }
 }
